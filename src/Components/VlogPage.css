@@ -1,0 +1,131 @@
+.vlog-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5eaef;
+    
+}
+
+.vlog-header {
+    background-color: #ff5252;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.vlog-header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.vlog-header nav a:hover {
+    text-decoration: underline;
+}
+
+.featured-vlog {
+    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(149, 148, 148, 0.001);
+    transition: transform 0.3s ease;
+}
+.featured-vlog:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.featured-vlog img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.featured-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+ 
+}
+
+.vlog-list {
+    
+    padding: 20px;
+}
+
+.vlogs {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.vlog-item {
+    width: calc(33.333% - 20px);
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.vlog-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.vlog-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.vlog-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.vlog-item .vlog-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.vlog-item:hover {
+    transform: translateY(-5px);
+}
+
+
+@media (max-width: 768px) {
+    .vlogs {
+        flex-direction: column;
+    }
+
+    .vlog-item {
+        width: 100%;
+    }
+
+    .featured-vlog {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .featured-vlog img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.featured-info h2 {
+    color: #333; 
+    margin-bottom: 10px;
+    font-size: 1.5rem; 
+}
+
+.featured-info p {
+    color: #555; 
+    line-height: 1.6; 
+}

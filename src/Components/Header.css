@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  color: #ff5252;
+  font-size: 24px;
+}
+
+.nav-links p {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.nav-links p:hover {
+  color: #1abc9c;
+  
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-icon {
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.nav-icon:hover {
+  color: #1abc9c;
+  transition: color 0.3s ease;
+}
+
+.nav-icon .user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon div {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.nav-icon div:hover {
+  text-decoration: underline;
+}
+.search-container {
+  position: relative; 
+  display: inline-block;
+}
+
+.search-input {
+  width: 200px; 
+  padding: 2px 30px 2px 12px; 
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px; 
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-icon {
+  position: absolute;
+  right:  5px; 
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #333;
+  pointer-events: none;
+}
+
+
+@media (max-width: 768px) {
+  .nav-icons {
+    justify-content: center;
+  }
+}
+.nav-links p.active {
+  color: rgb(102, 216, 197);
+  font-weight: 600; 
+  font-family: sans-serif;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.search-suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-suggestion-item:hover {
+  background-color: #f0f0f0;
+}

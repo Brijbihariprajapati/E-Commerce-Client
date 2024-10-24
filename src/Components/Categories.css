@@ -1,0 +1,27 @@
+.categories {
+    margin: 50px 0;
+  }
+  
+  .category-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-card {
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .category-title {
+    margin-top: 10px;
+  }
+  
+  .category-title h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

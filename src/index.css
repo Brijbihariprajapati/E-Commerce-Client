@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+.bill {
+  width: 4in;  /* Set width to 4 inches */
+  height: 6in; /* Set height to 6 inches */
+  /* max-width: 600px; */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.bill table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bill th, .bill td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

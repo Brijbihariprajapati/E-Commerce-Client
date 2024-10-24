@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 50px;
+  }
+  
+  .banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content h2 {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .shop-now-btn {
+    background-color: #ff5252;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .banner-image {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px; /* Use margin to reduce space if needed */
+    margin-bottom: -50px; /* Use margin to reduce space if needed */
+  }
+  
+
+
+
+
+
+  .categories {
+    margin: 50px 0;
+  }
+  
+  .category-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-card {
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .category-title {
+    margin-top: 10px;
+  }
+  
+  .category-title h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
